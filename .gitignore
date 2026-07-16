@@ -1,0 +1,25 @@
+.gradle/
+.kotlin/
+build/
+*/build/
+local.properties
+.idea/
+*.iml
+.DS_Store
+
+# Android
+*.apk
+*.aab
+captures/
+
+# iOS / Xcode
+iosApp/Pods/
+iosApp/*.xcworkspace
+Podfile.lock
+DerivedData/
+*.hmap
+*.ipa
+
+# Не коммитим саму ONNX-модель, если она больше нескольких МБ — храните её
+# в Git LFS или раздайте участникам хакатона отдельно.
+*.onnx
